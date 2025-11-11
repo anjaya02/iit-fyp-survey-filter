@@ -32,6 +32,7 @@ function filterFYPEmails() {
       // Only move if it's from a student
       if (isFromStudent) {
         thread.addLabel(label);
+        thread.markRead(); 
         thread.moveToArchive();
         Logger.log('✓ Moved (student survey): ' + thread.getFirstMessageSubject());
       } else {
