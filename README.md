@@ -29,7 +29,7 @@ This Google Apps Script automatically:
 2. **Copy the Code**
 
    - Delete any placeholder code
-   - Copy the entire content from [`Code.gs`](./Code.gs) in this repo
+   - Copy the entire content from [`code.gs`](./code.gs) in this repo
    - Paste it into the script editor
 
 3. **Save the Project**
