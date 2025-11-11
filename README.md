@@ -114,7 +114,7 @@ Uses regex pattern matching to identify student emails:
 
 ### Change the Label Name
 
-Edit line 13 in `Code.gs`:
+Edit line 13 in `code.gs`:
 
 ```javascript
 var labelName = "FYP Surveys"; // Change to whatever you want
@@ -185,7 +185,7 @@ In the Triggers settings, adjust the timer interval:
 
 ```
 iit-fyp-survey-filter/
-├── Code.gs          # Main script file
+├── code.gs          # Main script file
 └── README.md        # This file
 ```
 
